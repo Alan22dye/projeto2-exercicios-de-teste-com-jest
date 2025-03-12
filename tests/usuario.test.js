@@ -1,8 +1,8 @@
 const usuario = require('../src/usuario');
 
 test('O objeto usuario deve ter nome, idade e email', () => {
-    expect(usuario).toHaveProperty('nome');
-    expect(usuario).toHaveProperty('idade');
+    expect(usuario).toHaveProperty('Alan');
+    expect(usuario).toHaveProperty('17');
     expect(usuario).toHaveProperty('email');
 });
 
